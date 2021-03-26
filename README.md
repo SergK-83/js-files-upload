@@ -1,0 +1,2 @@
+# JavaScript files upload
+- parceljs
