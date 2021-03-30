@@ -33,7 +33,9 @@ upload('#inputFile', {
       }, error => {
         console.log(error);
       }, () => {
-        console.log('Complete');
+        task.snapshot.ref.getDownloadURL().then(url => {
+          console.log('Download URL', url);
+        })
       });
     });
   }

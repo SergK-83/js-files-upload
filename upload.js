@@ -21,7 +21,7 @@ const element = (tag, classes = [], content) => {
   return node;
 }
 
-function noop() {};
+function noop() {}
 
 export function upload(selector, options = {}) {
   let files = [];
